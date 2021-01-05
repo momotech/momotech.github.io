@@ -23,7 +23,7 @@
         <a class="header-link" href="../index.html">
           ArgoKit 1.0.6 Docs
         </a>
-         (52% documented)
+         (84% documented)
       </p>
     
       <p class="header-col--secondary">
@@ -73,6 +73,15 @@
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/List.html">List</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ListContextualAction.html">ListContextualAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ListRowAction.html">ListRowAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/ListSwipeActionsConfiguration.html">ListSwipeActionsConfiguration</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Classes/ProgressViewStyleConfiguration.html">ProgressViewStyleConfiguration</a>
@@ -148,8 +157,25 @@
             </ul>
           </li>
           <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/ArgoKitNode.html">ArgoKitNode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/ArgoKitNodeViewModifier.html">ArgoKitNodeViewModifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Extensions/Array.html">Array</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
             <a class="nav-group-name-link" href="../Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Protocols/ArgoKitIdentifiable.html">ArgoKitIdentifiable</a>
+              </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Protocols/Gesture.html">Gesture</a>
               </li>
@@ -290,9 +316,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit6SliderV5value2in14onValueChangedACx_SNyxGySfctcSBRzSB6StrideRpzlufc"></a>
+                    <a name="/s:7ArgoKit6SliderV5value2in14onValueChangedACxyXA_SNyxGyXAySfctcSBRzSB6StrideRpzlufc"></a>
                     <a name="//apple_ref/swift/Method/init(value:in:onValueChanged:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV5value2in14onValueChangedACx_SNyxGySfctcSBRzSB6StrideRpzlufc">init(value:<wbr>in:<wbr>onValueChanged:<wbr>)</a>
+                    <a class="token" href="#/s:7ArgoKit6SliderV5value2in14onValueChangedACxyXA_SNyxGyXAySfctcSBRzSB6StrideRpzlufc">init(value:<wbr>in:<wbr>onValueChanged:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -307,399 +333,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">init</span><span class="o">&lt;</span><span class="kt">V</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">value</span><span class="p">:</span> <span class="kt">V</span><span class="p">,</span> <span class="k">in</span> <span class="nv">bounds</span><span class="p">:</span> <span class="kt">ClosedRange</span><span class="o">&lt;</span><span class="kt">V</span><span class="o">&gt;</span> <span class="o">=</span> <span class="mi">0</span><span class="o">...</span><span class="mi">1</span><span class="p">,</span> <span class="nv">onValueChanged</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="o">=</span> <span class="p">{</span> <span class="n">_</span> <span class="k">in</span> <span class="p">})</span> <span class="k">where</span> <span class="kt">V</span> <span class="p">:</span> <span class="kt">BinaryFloatingPoint</span><span class="p">,</span> <span class="kt">V</span><span class="o">.</span><span class="kt">Stride</span> <span class="p">:</span> <span class="kt">BinaryFloatingPoint</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV5value_8animatedACSf_SbtF"></a>
-                    <a name="//apple_ref/swift/Method/value(_:animated:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV5value_8animatedACSf_SbtF">value(_:<wbr>animated:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">value</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV12minimumValueyACSfF"></a>
-                    <a name="//apple_ref/swift/Method/minimumValue(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV12minimumValueyACSfF">minimumValue(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">minimumValue</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV12maximumValueyACSfF"></a>
-                    <a name="//apple_ref/swift/Method/maximumValue(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV12maximumValueyACSfF">maximumValue(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">maximumValue</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV17minimumValueImageyACSo7UIImageCSgF"></a>
-                    <a name="//apple_ref/swift/Method/minimumValueImage(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV17minimumValueImageyACSo7UIImageCSgF">minimumValueImage(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">minimumValueImage</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV17minimumValueImageyACSSSgF"></a>
-                    <a name="//apple_ref/swift/Method/minimumValueImage(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV17minimumValueImageyACSSSgF">minimumValueImage(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">minimumValueImage</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV17maximumValueImageyACSo7UIImageCSgF"></a>
-                    <a name="//apple_ref/swift/Method/maximumValueImage(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV17maximumValueImageyACSo7UIImageCSgF">maximumValueImage(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">maximumValueImage</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV17maximumValueImageyACSSSgF"></a>
-                    <a name="//apple_ref/swift/Method/maximumValueImage(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV17maximumValueImageyACSSSgF">maximumValueImage(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">maximumValueImage</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV12isContinuousyACSbF"></a>
-                    <a name="//apple_ref/swift/Method/isContinuous(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV12isContinuousyACSbF">isContinuous(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">isContinuous</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV21minimumTrackTintColoryACSo7UIColorCSgF"></a>
-                    <a name="//apple_ref/swift/Method/minimumTrackTintColor(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV21minimumTrackTintColoryACSo7UIColorCSgF">minimumTrackTintColor(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">minimumTrackTintColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV21maximumTrackTintColoryACSo7UIColorCSgF"></a>
-                    <a name="//apple_ref/swift/Method/maximumTrackTintColor(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV21maximumTrackTintColoryACSo7UIColorCSgF">maximumTrackTintColor(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">maximumTrackTintColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV14thumbTintColoryACSo7UIColorCSgF"></a>
-                    <a name="//apple_ref/swift/Method/thumbTintColor(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV14thumbTintColoryACSo7UIColorCSgF">thumbTintColor(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">thumbTintColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV10thumbImage_3forACSo7UIImageCSg_So14UIControlStateVtF"></a>
-                    <a name="//apple_ref/swift/Method/thumbImage(_:for:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV10thumbImage_3forACSo7UIImageCSg_So14UIControlStateVtF">thumbImage(_:<wbr>for:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">thumbImage</span><span class="p">(</span><span class="n">_</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="k">for</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIControl</span><span class="o">.</span><span class="kt">State</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV17minimumTrackImage_3forACSo7UIImageCSg_So14UIControlStateVtF"></a>
-                    <a name="//apple_ref/swift/Method/minimumTrackImage(_:for:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV17minimumTrackImage_3forACSo7UIImageCSg_So14UIControlStateVtF">minimumTrackImage(_:<wbr>for:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">minimumTrackImage</span><span class="p">(</span><span class="n">_</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="k">for</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIControl</span><span class="o">.</span><span class="kt">State</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit6SliderV17maximumTrackImage_3forACSo7UIImageCSg_So14UIControlStateVtF"></a>
-                    <a name="//apple_ref/swift/Method/maximumTrackImage(_:for:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit6SliderV17maximumTrackImage_3forACSo7UIImageCSg_So14UIControlStateVtF">maximumTrackImage(_:<wbr>for:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">maximumTrackImage</span><span class="p">(</span><span class="n">_</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">?,</span> <span class="k">for</span> <span class="nv">state</span><span class="p">:</span> <span class="kt">UIControl</span><span class="o">.</span><span class="kt">State</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Slider</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">init</span><span class="o">&lt;</span><span class="kt">V</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">V</span><span class="p">,</span> <span class="k">in</span> <span class="nv">bounds</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">ClosedRange</span><span class="o">&lt;</span><span class="kt">V</span><span class="o">&gt;</span> <span class="o">=</span> <span class="mi">0</span><span class="o">...</span><span class="mi">1</span><span class="p">,</span> <span class="nv">onValueChanged</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span> <span class="o">=</span> <span class="p">{</span> <span class="n">_</span> <span class="k">in</span> <span class="p">})</span> <span class="k">where</span> <span class="kt">V</span> <span class="p">:</span> <span class="kt">BinaryFloatingPoint</span><span class="p">,</span> <span class="kt">V</span><span class="o">.</span><span class="kt">Stride</span> <span class="p">:</span> <span class="kt">BinaryFloatingPoint</span></code></pre>
 
                         </div>
                       </div>
@@ -714,7 +348,7 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2020 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2020-12-29)</p>
+      <p>&copy; 2021 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2021-01-05)</p>
       <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
