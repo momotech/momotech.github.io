@@ -21,7 +21,7 @@
     <header class="header">
       <p class="header-col header-col--primary">
         <a class="header-link" href="../index.html">
-          ArgoKit 1.0.11 Docs
+          ArgoKit 1.3.0 Docs
         </a>
          (71% documented)
       </p>
@@ -148,6 +148,9 @@
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Enums/ArgoWrapType.html">ArgoWrapType</a>
               </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ViewPosition.html">ViewPosition</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -191,13 +194,13 @@
             <a class="nav-group-name-link" href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Structs/ActivityIndicatorView.html">ActivityIndicatorView</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/ArgoKitAnimationBuilder.html">ArgoKitAnimationBuilder</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/ArgoKitAnimationsBuilder.html">ArgoKitAnimationsBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ArgoKitNodeAlias.html">ArgoKitNodeAlias</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/BlurEffectView.html">BlurEffectView</a>
@@ -354,9 +357,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit8ViewPageC4data10rowContentACyxGAA10DataSourceCySayxGG_AA0C0_pxctcAA0aB12IdentifiableRzlufc"></a>
+                    <a name="/s:7ArgoKit8ViewPageC4data10rowContentACyxGAA10DataSourceCySayxGG_AA0C0_pxctcfc"></a>
                     <a name="//apple_ref/swift/Method/init(data:rowContent:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit8ViewPageC4data10rowContentACyxGAA10DataSourceCySayxGG_AA0C0_pxctcAA0aB12IdentifiableRzlufc">init(data:<wbr>rowContent:<wbr>)</a>
+                    <a class="token" href="#/s:7ArgoKit8ViewPageC4data10rowContentACyxGAA10DataSourceCySayxGG_AA0C0_pxctcfc">init(data:<wbr>rowContent:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -371,9 +374,124 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt"><a href="../Classes/DataSource.html">DataSource</a></span><span class="o">&lt;</span><span class="kt"><a href="../Typealiases.html#/s:7ArgoKit8DataLista">DataList</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;&gt;</span><span class="p">,</span> <span class="kd">@ArgoKitListBuilder</span> <span class="nv">rowContent</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">T</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/View.html">View</a></span><span class="p">)</span> <span class="k">where</span> <span class="kt">T</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/ArgoKitIdentifiable.html">ArgoKitIdentifiable</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="kt"><a href="../Classes/DataSource.html">DataSource</a></span><span class="o">&lt;</span><span class="kt"><a href="../Typealiases.html#/s:7ArgoKit8DataLista">DataList</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;&gt;</span><span class="p">,</span> <span class="kd">@ArgoKitListBuilder</span> <span class="nv">rowContent</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">T</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/View.html">View</a></span><span class="p">)</span></code></pre>
 
                         </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Init"></a>
+                <a name="//apple_ref/swift/Section/Init" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Init"></a>
+                  <h3 class="section-name"><p>Init</p>
+</h3>
+                </div>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit8ViewPageC11sizeForItemyACyxGXDSo6CGSizeVx_10Foundation9IndexPathVtcF"></a>
+                    <a name="//apple_ref/swift/Method/sizeForItem(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit8ViewPageC11sizeForItemyACyxGXDSo6CGSizeVx_10Foundation9IndexPathVtcF">sizeForItem(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the action that handle the item at the specified index path .</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">sizeForItem</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">T</span><span class="p">,</span> <span class="n">_</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The action that handle the item at the specified index path.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit8ViewPageC12cellSelectedyACyxGXDyx_10Foundation9IndexPathVtcF"></a>
+                    <a name="//apple_ref/swift/Method/cellSelected(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit8ViewPageC12cellSelectedyACyxGXDyx_10Foundation9IndexPathVtcF">cellSelected(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the action that handle the item at the specified index path was selected.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">cellSelected</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">T</span><span class="p">,</span> <span class="n">_</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The action that handle the item at the specified index path was selected.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Self</p>
                       </div>
                     </section>
                   </div>
@@ -539,8 +657,8 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2021 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2021-01-25)</p>
-      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      <p>&copy; 2021 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2021-07-07)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
 </div>

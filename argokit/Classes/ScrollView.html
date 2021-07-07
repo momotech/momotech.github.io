@@ -21,7 +21,7 @@
     <header class="header">
       <p class="header-col header-col--primary">
         <a class="header-link" href="../index.html">
-          ArgoKit 1.0.11 Docs
+          ArgoKit 1.3.0 Docs
         </a>
          (71% documented)
       </p>
@@ -148,6 +148,9 @@
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Enums/ArgoWrapType.html">ArgoWrapType</a>
               </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ViewPosition.html">ViewPosition</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -191,13 +194,13 @@
             <a class="nav-group-name-link" href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Structs/ActivityIndicatorView.html">ActivityIndicatorView</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/ArgoKitAnimationBuilder.html">ArgoKitAnimationBuilder</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/ArgoKitAnimationsBuilder.html">ArgoKitAnimationsBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ArgoKitNodeAlias.html">ArgoKitNodeAlias</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/BlurEffectView.html">BlurEffectView</a>
@@ -461,421 +464,6 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit10ScrollViewC14indicatorStyleyACXDSo08UIScrolld9IndicatorF0VF"></a>
-                    <a name="//apple_ref/swift/Method/indicatorStyle(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit10ScrollViewC14indicatorStyleyACXDSo08UIScrolld9IndicatorF0VF">indicatorStyle(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Set the indicatorStyle of the UIScrollView behind the wrapper.</p>
-
-<p>The style of the scroll indicators. The default style is UIScrollView.IndicatorStyle.default.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">indicatorStyle</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="o">.</span><span class="kt">IndicatorStyle</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>new style</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit10ScrollViewC08verticalC15IndicatorInsetsyACXDSo06UIEdgeG0VF"></a>
-                    <a name="//apple_ref/swift/Method/verticalScrollIndicatorInsets(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit10ScrollViewC08verticalC15IndicatorInsetsyACXDSo06UIEdgeG0VF">verticalScrollIndicatorInsets(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Set the verticalScrollIndicatorInsets of the UIScrollView behind the wrapper.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">11.1</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
-<span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">verticalScrollIndicatorInsets</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>new insets</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit10ScrollViewC010horizontalC15IndicatorInsetsyACXDSo06UIEdgeG0VF"></a>
-                    <a name="//apple_ref/swift/Method/horizontalScrollIndicatorInsets(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit10ScrollViewC010horizontalC15IndicatorInsetsyACXDSo06UIEdgeG0VF">horizontalScrollIndicatorInsets(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Set the horizontalScrollIndicatorInsets of the UIScrollView behind the wrapper.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">11.1</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
-<span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">horizontalScrollIndicatorInsets</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>new insets</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit10ScrollViewC21scrollIndicatorInsetsyACXDSo06UIEdgeG0VF"></a>
-                    <a name="//apple_ref/swift/Method/scrollIndicatorInsets(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit10ScrollViewC21scrollIndicatorInsetsyACXDSo06UIEdgeG0VF">scrollIndicatorInsets(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Set the scrollIndicatorInsets of the UIScrollView behind the wrapper.</p>
-
-<p>Set the scrollIndicatorInsets of the UIScrollView behind the wrapper.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">scrollIndicatorInsets</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>new UIEdgeInsets value</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit10ScrollViewC16decelerationRateyACXDSo08UIScrolld12DecelerationF0aF"></a>
-                    <a name="//apple_ref/swift/Method/decelerationRate(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit10ScrollViewC16decelerationRateyACXDSo08UIScrolld12DecelerationF0aF">decelerationRate(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Set the decelerationRate of the UIScrollView behind the wrapper.</p>
-
-<p>A floating-point value that determines the rate of deceleration after the user lifts their finger.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">decelerationRate</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="o">.</span><span class="kt">DecelerationRate</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>new rate</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit10ScrollViewC16indexDisplayModeyACXDSo08UIScrolld5IndexfG0VF"></a>
-                    <a name="//apple_ref/swift/Method/indexDisplayMode(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit10ScrollViewC16indexDisplayModeyACXDSo08UIScrolld5IndexfG0VF">indexDisplayMode(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Set the indexDisplayMode of the UIScrollView behind the wrapper.</p>
-
-<p>The manner in which the index is shown while the user is scrolling.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">indexDisplayMode</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="o">.</span><span class="kt">IndexDisplayMode</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>new mode</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit10ScrollViewC16setContentOffset_8animatedACXDSo7CGPointV_SbtF"></a>
-                    <a name="//apple_ref/swift/Method/setContentOffset(_:animated:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit10ScrollViewC16setContentOffset_8animatedACXDSo7CGPointV_SbtF">setContentOffset(_:<wbr>animated:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Set the ContentOffset of the UIScrollView behind the wrapper.</p>
-
-<p>Sets the offset from the content view’s origin that corresponds to the receiver’s origin.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setContentOffset</span><span class="p">(</span><span class="n">_</span> <span class="nv">contentOffset</span><span class="p">:</span> <span class="kt">CGPoint</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>contentOffset</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A point (expressed in points) that is offset from the content view’s origin.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>animated</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>true to animate the transition at a constant velocity to the new offset, false to make the transition immediate.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit10ScrollViewC19scrollRectToVisible_8animatedACXDSo6CGRectV_SbtF"></a>
-                    <a name="//apple_ref/swift/Method/scrollRectToVisible(_:animated:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit10ScrollViewC19scrollRectToVisible_8animatedACXDSo6CGRectV_SbtF">scrollRectToVisible(_:<wbr>animated:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Call the scrollRectToVisible of the UIScrollView behind the wrapper.</p>
-
-<p>Scrolls a specific area of the content so that it is visible in the receiver.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">scrollRectToVisible</span><span class="p">(</span><span class="n">_</span> <span class="nv">rect</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:7ArgoKit10ScrollViewC05flashC10IndicatorsACXDyF"></a>
                     <a name="//apple_ref/swift/Method/flashScrollIndicators()" class="dashAnchor"></a>
                     <a class="token" href="#/s:7ArgoKit10ScrollViewC05flashC10IndicatorsACXDyF">flashScrollIndicators()</a>
@@ -899,113 +487,6 @@
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">flashScrollIndicators</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit10ScrollViewC19keyboardDismissModeyACXDSo08UIScrolld8KeyboardfG0VF"></a>
-                    <a name="//apple_ref/swift/Method/keyboardDismissMode(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit10ScrollViewC19keyboardDismissModeyACXDSo08UIScrolld8KeyboardfG0VF">keyboardDismissMode(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Set the keyboardDismissMode of the UIScrollView behind the wrapper.</p>
-
-<p>The manner in which the keyboard is dismissed when a drag begins in the scroll view.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">keyboardDismissMode</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIScrollView</span><span class="o">.</span><span class="kt">KeyboardDismissMode</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>new mode</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit10ScrollViewC14refreshControlyACXDSo09UIRefreshF0CF"></a>
-                    <a name="//apple_ref/swift/Method/refreshControl(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit10ScrollViewC14refreshControlyACXDSo09UIRefreshF0CF">refreshControl(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Set the refreshControl of the UIScrollView behind the wrapper.</p>
-
-<p>The refresh control associated with the scroll view.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">10.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
-<span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">refreshControl</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIRefreshControl</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>new UIRefreshControl value</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
                       </div>
                       <div>
                         <h4>Return Value</h4>
@@ -1052,6 +533,56 @@
                               <td>
                                 <div>
                                   <p>the callback</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit10ScrollViewC03didC0yACXDySo08UIScrollD0CSgcF"></a>
+                    <a name="//apple_ref/swift/Method/didScroll(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC03didC0yACXDySo08UIScrollD0CSgcF">didScroll(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the callback called when the user scrolls the content view within the receiver.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">didScroll</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIScrollView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the callback with UIScrollView</p>
                                 </div>
                               </td>
                             </tr>
@@ -1119,6 +650,57 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:7ArgoKit10ScrollViewC7didZoomyACXDySo08UIScrollD0CSgcF"></a>
+                    <a name="//apple_ref/swift/Method/didZoom(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC7didZoomyACXDySo08UIScrollD0CSgcF">didZoom(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the callback called when the scroll view’s zoom factor changed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">didZoom</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIScrollView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback with UIScrollView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:7ArgoKit10ScrollViewC17willBeginDraggingyACXDyycF"></a>
                     <a name="//apple_ref/swift/Method/willBeginDragging(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:7ArgoKit10ScrollViewC17willBeginDraggingyACXDyycF">willBeginDragging(_:<wbr>)</a>
@@ -1154,6 +736,57 @@
                               <td>
                                 <div>
                                   <p>callback</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit10ScrollViewC17willBeginDraggingyACXDySo08UIScrollD0CSgcF"></a>
+                    <a name="//apple_ref/swift/Method/willBeginDragging(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC17willBeginDraggingyACXDySo08UIScrollD0CSgcF">willBeginDragging(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the callback called when  the scroll view is about to start scrolling the content.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">willBeginDragging</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIScrollView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback with UIScrollView</p>
                                 </div>
                               </td>
                             </tr>
@@ -1323,6 +956,57 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:7ArgoKit10ScrollViewC21willBeginDeceleratingyACXDySo08UIScrollD0CSgcF"></a>
+                    <a name="//apple_ref/swift/Method/willBeginDecelerating(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC21willBeginDeceleratingyACXDySo08UIScrollD0CSgcF">willBeginDecelerating(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the callback called when  the scroll view is starting to decelerate the scrolling movement.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">willBeginDecelerating</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIScrollView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback with UIScrollView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:7ArgoKit10ScrollViewC18didEndDeceleratingyACXDyycF"></a>
                     <a name="//apple_ref/swift/Method/didEndDecelerating(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:7ArgoKit10ScrollViewC18didEndDeceleratingyACXDyycF">didEndDecelerating(_:<wbr>)</a>
@@ -1374,6 +1058,57 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:7ArgoKit10ScrollViewC18didEndDeceleratingyACXDySo08UIScrollD0CSgcF"></a>
+                    <a name="//apple_ref/swift/Method/didEndDecelerating(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC18didEndDeceleratingyACXDySo08UIScrollD0CSgcF">didEndDecelerating(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the calback called when  the scroll view has ended decelerating the scrolling movement.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">didEndDecelerating</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIScrollView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback  with UIScrollView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:7ArgoKit10ScrollViewC24didEndScrollingAnimationyACXDyycF"></a>
                     <a name="//apple_ref/swift/Method/didEndScrollingAnimation(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:7ArgoKit10ScrollViewC24didEndScrollingAnimationyACXDyycF">didEndScrollingAnimation(_:<wbr>)</a>
@@ -1392,6 +1127,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">@objc</span>
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">didEndScrollingAnimation</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
@@ -1409,6 +1145,57 @@
                               <td>
                                 <div>
                                   <p>callback</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit10ScrollViewC24didEndScrollingAnimationyACXDySo08UIScrollD0CSgcF"></a>
+                    <a name="//apple_ref/swift/Method/didEndScrollingAnimation(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC24didEndScrollingAnimationyACXDySo08UIScrollD0CSgcF">didEndScrollingAnimation(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the callback called when a scrolling animation in the scroll view concludes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">didEndScrollingAnimation</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIScrollView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback with UIScrollView</p>
                                 </div>
                               </td>
                             </tr>
@@ -1460,6 +1247,57 @@
                               <td>
                                 <div>
                                   <p>callback</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit10ScrollViewC14viewForZoomingyACXDSo6UIViewCSgSo08UIScrollD0CSgcF"></a>
+                    <a name="//apple_ref/swift/Method/viewForZooming(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC14viewForZoomingyACXDSo6UIViewCSgSo08UIScrollD0CSgcF">viewForZooming(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the callback called for the view to scale when zooming is about to occur in the scroll view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">viewForZooming</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIScrollView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">UIView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback with UIScrollView</p>
                                 </div>
                               </td>
                             </tr>
@@ -1630,6 +1468,58 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:7ArgoKit10ScrollViewC06shouldC5ToTopyACXDSbSo08UIScrollD0CSgcF"></a>
+                    <a name="//apple_ref/swift/Method/shouldScrollToTop(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC06shouldC5ToTopyACXDSbSo08UIScrollD0CSgcF">shouldScrollToTop(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the calback that returns the Boolean value.
+ to determine if the scroll view should scroll to the top of the content.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">shouldScrollToTop</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIScrollView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback with UIScrollView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:7ArgoKit10ScrollViewC03didC5ToTopyACXDyycF"></a>
                     <a name="//apple_ref/swift/Method/didScrollToTop(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:7ArgoKit10ScrollViewC03didC5ToTopyACXDyycF">didScrollToTop(_:<wbr>)</a>
@@ -1665,6 +1555,57 @@
                               <td>
                                 <div>
                                   <p>callback</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit10ScrollViewC03didC5ToTopyACXDySo08UIScrollD0CSgcF"></a>
+                    <a name="//apple_ref/swift/Method/didScrollToTop(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC03didC5ToTopyACXDySo08UIScrollD0CSgcF">didScrollToTop(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the callback called when the scroll view scrolled to the top of the content.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">didScrollToTop</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIScrollView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback with UIScrollView</p>
                                 </div>
                               </td>
                             </tr>
@@ -1730,6 +1671,151 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit10ScrollViewC29didChangeAdjustedContentInsetyACXDySo08UIScrollD0CSgcF"></a>
+                    <a name="//apple_ref/swift/Method/didChangeAdjustedContentInset(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC29didChangeAdjustedContentInsetyACXDySo08UIScrollD0CSgcF">didChangeAdjustedContentInset(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the callback called when the scroll view&rsquo;s inset values changed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">11.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">didChangeAdjustedContentInset</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">UIScrollView</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback with UIScrollView</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit10ScrollViewC10isTrackingSbyF"></a>
+                    <a name="//apple_ref/swift/Method/isTracking()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC10isTrackingSbyF">isTracking()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns whether the user has touched the content to initiate scrolling.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isTracking</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>YES if user has touched. may not yet have started dragging</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit10ScrollViewC10isDraggingSbyF"></a>
+                    <a name="//apple_ref/swift/Method/isDragging()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC10isDraggingSbyF">isDragging()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A Boolean value that indicates whether the user has begun scrolling the content.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isDragging</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>YES if user has started scrolling. this may require some time and or distance to move to initiate dragging</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit10ScrollViewC14isDeceleratingSbyF"></a>
+                    <a name="//apple_ref/swift/Method/isDecelerating()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit10ScrollViewC14isDeceleratingSbyF">isDecelerating()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns whether the content is moving in the scroll view after the user lifted their finger.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">isDecelerating</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>YES if user isn&rsquo;t dragging (touch up) but scroll view is still moving</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -1738,8 +1824,8 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2021 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2021-01-25)</p>
-      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      <p>&copy; 2021 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2021-07-07)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
 </div>
