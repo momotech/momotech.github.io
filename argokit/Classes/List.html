@@ -21,7 +21,7 @@
     <header class="header">
       <p class="header-col header-col--primary">
         <a class="header-link" href="../index.html">
-          ArgoKit 1.0.11 Docs
+          ArgoKit 1.3.0 Docs
         </a>
          (71% documented)
       </p>
@@ -148,6 +148,9 @@
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Enums/ArgoWrapType.html">ArgoWrapType</a>
               </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ViewPosition.html">ViewPosition</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -191,13 +194,13 @@
             <a class="nav-group-name-link" href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Structs/ActivityIndicatorView.html">ActivityIndicatorView</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/ArgoKitAnimationBuilder.html">ArgoKitAnimationBuilder</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/ArgoKitAnimationsBuilder.html">ArgoKitAnimationsBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ArgoKitNodeAlias.html">ArgoKitNodeAlias</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/BlurEffectView.html">BlurEffectView</a>
@@ -575,9 +578,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit4ListC15tableHeaderView13headerContentACyxGXDAA0F0_pyc_tF"></a>
+                    <a name="/s:7ArgoKit4ListC15tableHeaderView13headerContentACyxGXDAA0F0_pSgyc_tF"></a>
                     <a name="//apple_ref/swift/Method/tableHeaderView(headerContent:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC15tableHeaderView13headerContentACyxGXDAA0F0_pyc_tF">tableHeaderView(headerContent:<wbr>)</a>
+                    <a class="token" href="#/s:7ArgoKit4ListC15tableHeaderView13headerContentACyxGXDAA0F0_pSgyc_tF">tableHeaderView(headerContent:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -593,7 +596,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">tableHeaderView</span><span class="p">(</span><span class="kd">@ArgoKitListBuilder</span> <span class="nv">headerContent</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/View.html">View</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">tableHeaderView</span><span class="p">(</span><span class="nv">headerContent</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/View.html">View</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -626,9 +629,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit4ListC15tableFooterView13footerContentACyxGXDAA0F0_pyc_tF"></a>
-                    <a name="//apple_ref/swift/Method/tableFooterView(footerContent:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC15tableFooterView13footerContentACyxGXDAA0F0_pyc_tF">tableFooterView(footerContent:<wbr>)</a>
+                    <a name="/s:7ArgoKit4ListC15tableFooterView13headerContentACyxGXDAA0F0_pSgyc_tF"></a>
+                    <a name="//apple_ref/swift/Method/tableFooterView(headerContent:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit4ListC15tableFooterView13headerContentACyxGXDAA0F0_pSgyc_tF">tableFooterView(headerContent:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -644,7 +647,7 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">tableFooterView</span><span class="p">(</span><span class="kd">@ArgoKitListBuilder</span> <span class="nv">footerContent</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/View.html">View</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">tableFooterView</span><span class="p">(</span><span class="nv">headerContent</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/View.html">View</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -803,6 +806,189 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:7ArgoKit4ListC18estimatedRowHeightyACyxGXD12CoreGraphics7CGFloatVyXAF"></a>
+                    <a name="//apple_ref/swift/Method/estimatedRowHeight(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit4ListC18estimatedRowHeightyACyxGXD12CoreGraphics7CGFloatVyXAF">estimatedRowHeight(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the estimated height of rows in the table view.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">estimatedRowHeight</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>footerContent</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A view builder that creates the view for footer.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit4ListC14closeAnimation5valueACyxGXDSbyXA_tF"></a>
+                    <a name="//apple_ref/swift/Method/closeAnimation(value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit4ListC14closeAnimation5valueACyxGXDSbyXA_tF">closeAnimation(value:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">closeAnimation</span><span class="p">(</span><span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit4ListC08relayoutC05valueACyxGXDSbyXA_tF"></a>
+                    <a name="//apple_ref/swift/Method/relayoutList(value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit4ListC08relayoutC05valueACyxGXDSbyXA_tF">relayoutList(value:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">relayoutList</span><span class="p">(</span><span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit4ListC10removeNode5valueACyxGXDSb_tF"></a>
+                    <a name="//apple_ref/swift/Method/removeNode(value:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit4ListC10removeNode5valueACyxGXDSb_tF">removeNode(value:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">removeNode</span><span class="p">(</span><span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit4ListC18cellBackgroudColoryACyxGXDSo7UIColorCx_10Foundation9IndexPathVtcF"></a>
+                    <a name="//apple_ref/swift/Method/cellBackgroudColor(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit4ListC18cellBackgroudColoryACyxGXDSo7UIColorCx_10Foundation9IndexPathVtcF">cellBackgroudColor(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Setshe cell’s background color.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">cellBackgroudColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">D</span><span class="p">,</span> <span class="n">_</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p></p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:7ArgoKit4ListC14selectionStyleyACyxGXDSo024UITableViewCellSelectionE0VF"></a>
                     <a name="//apple_ref/swift/Method/selectionStyle(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:7ArgoKit4ListC14selectionStyleyACyxGXDSo024UITableViewCellSelectionE0VF">selectionStyle(_:<wbr>)</a>
@@ -905,6 +1091,37 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:7ArgoKit4ListC14separatorInsetSo12UIEdgeInsetsVyF"></a>
+                    <a name="//apple_ref/swift/Method/separatorInset()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit4ListC14separatorInsetSo12UIEdgeInsetsVyF">separatorInset()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets the default inset of cell separators.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">separatorInset</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIEdgeInsets</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>inset of cell separators</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:7ArgoKit4ListC23separatorInsetReferenceyACyxGXDSo020UITableViewSeparatoreF0VF"></a>
                     <a name="//apple_ref/swift/Method/separatorInsetReference(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:7ArgoKit4ListC23separatorInsetReferenceyACyxGXDSo020UITableViewSeparatoreF0VF">separatorInsetReference(_:<wbr>)</a>
@@ -946,6 +1163,39 @@
                             </tr>
                           </tbody>
                         </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit4ListC23separatorInsetReferenceSo020UITableViewSeparatoreF0VyF"></a>
+                    <a name="//apple_ref/swift/Method/separatorInsetReference()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit4ListC23separatorInsetReferenceSo020UITableViewSeparatoreF0VyF">separatorInsetReference()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets an indicator of how the separator inset value should be interpreted.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">11.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
+<span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">separatorInsetReference</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UITableView</span><span class="o">.</span><span class="kt">SeparatorInsetReference</span></code></pre>
+
+                        </div>
                       </div>
                       <div>
                         <h4>Return Value</h4>
@@ -1095,69 +1345,6 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit4ListC10setEditing_8animatedACyxGXDSb_SbtF"></a>
-                    <a name="//apple_ref/swift/Method/setEditing(_:animated:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC10setEditing_8animatedACyxGXDSb_SbtF">setEditing(_:<wbr>animated:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Toggles the list into and out of editing mode.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">setEditing</span><span class="p">(</span><span class="n">_</span> <span class="nv">editing</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>editing</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>true to enter editing mode; false to leave it. The default value is false.</p>
-                                </div>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>animated</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>true to animate the transition to editing mode; false to make the transition immediate.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:7ArgoKit4ListC15allowsSelectionyACyxGXDSbF"></a>
                     <a name="//apple_ref/swift/Method/allowsSelection(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:7ArgoKit4ListC15allowsSelectionyACyxGXDSbF">allowsSelection(_:<wbr>)</a>
@@ -1209,57 +1396,6 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit4ListC28allowsSelectionDuringEditingyACyxGXDSbF"></a>
-                    <a name="//apple_ref/swift/Method/allowsSelectionDuringEditing(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC28allowsSelectionDuringEditingyACyxGXDSbF">allowsSelectionDuringEditing(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets a Boolean value that determines whether users can select cells while the list is in editing mode.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">allowsSelectionDuringEditing</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A Boolean value that determines whether users can select cells while the list is in editing mode.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:7ArgoKit4ListC23allowsMultipleSelectionyACyxGXDSbF"></a>
                     <a name="//apple_ref/swift/Method/allowsMultipleSelection(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:7ArgoKit4ListC23allowsMultipleSelectionyACyxGXDSbF">allowsMultipleSelection(_:<wbr>)</a>
@@ -1295,57 +1431,6 @@
                               <td>
                                 <div>
                                   <p>A Boolean value that determines whether users can select more than one row outside of editing mode.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit4ListC36allowsMultipleSelectionDuringEditingyACyxGXDSbF"></a>
-                    <a name="//apple_ref/swift/Method/allowsMultipleSelectionDuringEditing(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC36allowsMultipleSelectionDuringEditingyACyxGXDSbF">allowsMultipleSelectionDuringEditing(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets a Boolean value that controls whether users can select more than one cell simultaneously in editing mode.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">allowsMultipleSelectionDuringEditing</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A Boolean value that controls whether users can select more than one cell simultaneously in editing mode.</p>
                                 </div>
                               </td>
                             </tr>
@@ -1500,468 +1585,6 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit4ListC34sectionIndexMinimumDisplayRowCountyACyxGXDSiF"></a>
-                    <a name="//apple_ref/swift/Method/sectionIndexMinimumDisplayRowCount(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC34sectionIndexMinimumDisplayRowCountyACyxGXDSiF">sectionIndexMinimumDisplayRowCount(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets the number of table rows at which to display the index list on the right edge of the table.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">sectionIndexMinimumDisplayRowCount</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The number of table rows at which to display the index list on the right edge of the table.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit4ListC17sectionIndexColoryACyxGXDSo7UIColorCSgF"></a>
-                    <a name="//apple_ref/swift/Method/sectionIndexColor(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC17sectionIndexColoryACyxGXDSo7UIColorCSgF">sectionIndexColor(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets the color to use for the list’s index text.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">sectionIndexColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The color to use for the list’s index text.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit4ListC27sectionIndexBackgroundColoryACyxGXDSo7UIColorCSgF"></a>
-                    <a name="//apple_ref/swift/Method/sectionIndexBackgroundColor(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC27sectionIndexBackgroundColoryACyxGXDSo7UIColorCSgF">sectionIndexBackgroundColor(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets the color to use for the background of the list’s section index.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">sectionIndexBackgroundColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The color to use for the background of the list’s section index.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit4ListC35sectionIndexTrackingBackgroundColoryACyxGXDSo7UIColorCSgF"></a>
-                    <a name="//apple_ref/swift/Method/sectionIndexTrackingBackgroundColor(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC35sectionIndexTrackingBackgroundColoryACyxGXDSo7UIColorCSgF">sectionIndexTrackingBackgroundColor(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets the color to use for the list’s index background area.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">sectionIndexTrackingBackgroundColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The color to use for the list’s index background area.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit4ListC14separatorStyleyACyxGXDSo024UITableViewCellSeparatorE0VF"></a>
-                    <a name="//apple_ref/swift/Method/separatorStyle(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC14separatorStyleyACyxGXDSo024UITableViewCellSeparatorE0VF">separatorStyle(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets the style for table cells used as separators.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">separatorStyle</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UITableViewCell</span><span class="o">.</span><span class="kt">SeparatorStyle</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The style for table cells used as separators.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit4ListC14separatorColoryACyxGXDSo7UIColorCSgF"></a>
-                    <a name="//apple_ref/swift/Method/separatorColor(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC14separatorColoryACyxGXDSo7UIColorCSgF">separatorColor(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets the color of separator rows in the list.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">separatorColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The color of separator rows in the list.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit4ListC15separatorEffectyACyxGXDSo08UIVisualE0CSgF"></a>
-                    <a name="//apple_ref/swift/Method/separatorEffect(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC15separatorEffectyACyxGXDSo08UIVisualE0CSgF">separatorEffect(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets the effect applied to table separators.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">8.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
-<span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">separatorEffect</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">UIVisualEffect</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>The effect applied to table separators.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit4ListC36cellLayoutMarginsFollowReadableWidthyACyxGXDSbF"></a>
-                    <a name="//apple_ref/swift/Method/cellLayoutMarginsFollowReadableWidth(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC36cellLayoutMarginsFollowReadableWidthyACyxGXDSbF">cellLayoutMarginsFollowReadableWidth(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets a Boolean value that indicates whether the cell margins are derived from the width of the readable content guide.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">9.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
-<span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">cellLayoutMarginsFollowReadableWidth</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A Boolean value that indicates whether the cell margins are derived from the width of the readable content guide.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit4ListC28insetsContentViewsToSafeAreayACyxGXDSbF"></a>
-                    <a name="//apple_ref/swift/Method/insetsContentViewsToSafeArea(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC28insetsContentViewsToSafeAreayACyxGXDSbF">insetsContentViewsToSafeArea(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets a Boolean value that indicates whether the list adjusts the content views of its cells, headers, and footers to fit within the safe area.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">11.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
-<span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">insetsContentViewsToSafeArea</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A Boolean value that indicates whether the list adjusts the content views of its cells, headers, and footers to fit within the safe area.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
                     <a name="/s:7ArgoKit4ListC29remembersLastFocusedIndexPathyACyxGXDSbF"></a>
                     <a name="//apple_ref/swift/Method/remembersLastFocusedIndexPath(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:7ArgoKit4ListC29remembersLastFocusedIndexPathyACyxGXDSbF">remembersLastFocusedIndexPath(_:<wbr>)</a>
@@ -2050,58 +1673,6 @@
                               <td>
                                 <div>
                                   <p>A Boolean value that triggers an automatic selection when focus moves to a cell.</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>Self</p>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit4ListC22dragInteractionEnabledyACyxGXDSbF"></a>
-                    <a name="//apple_ref/swift/Method/dragInteractionEnabled(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit4ListC22dragInteractionEnabledyACyxGXDSbF">dragInteractionEnabled(_:<wbr>)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Sets A Boolean value indicating whether the list supports drags and drops between apps.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span> <span class="mf">11.0</span><span class="p">,</span> <span class="o">*</span><span class="p">)</span>
-<span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">dragInteractionEnabled</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>A Boolean value indicating whether the list supports drags and drops between apps.</p>
                                 </div>
                               </td>
                             </tr>
@@ -3046,7 +2617,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Sets the action that handle a row is Deselected.</p>
 
                       </div>
                       <div class="declaration">
@@ -3057,6 +2628,80 @@
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">cellDeselected</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">D</span><span class="p">,</span> <span class="n">_</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The action that handle a row is Deselected.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit4ListC10cellHeightyACyxGXD12CoreGraphics7CGFloatVx_10Foundation9IndexPathVtcF"></a>
+                    <a name="//apple_ref/swift/Method/cellHeight(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit4ListC10cellHeightyACyxGXD12CoreGraphics7CGFloatVx_10Foundation9IndexPathVtcF">cellHeight(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the cell height.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">cellHeight</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">D</span><span class="p">,</span> <span class="n">_</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The height of cell.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Self</p>
                       </div>
                     </section>
                   </div>
@@ -3646,8 +3291,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span><span class="p">,</span> <span class="nv">introduced</span><span class="p">:</span> <span class="mf">5.0</span><span class="p">,</span> <span class="nv">deprecated</span><span class="p">:</span> <span class="mf">13.0</span><span class="p">)</span>
-<span class="kd">@discardableResult</span>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">canPerformAction</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">Selector</span><span class="p">,</span> <span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">D</span><span class="p">,</span> <span class="n">_</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
@@ -3698,8 +3342,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="n">iOS</span><span class="p">,</span> <span class="nv">introduced</span><span class="p">:</span> <span class="mf">5.0</span><span class="p">,</span> <span class="nv">deprecated</span><span class="p">:</span> <span class="mf">13.0</span><span class="p">)</span>
-<span class="kd">@discardableResult</span>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
 <span class="kd">public</span> <span class="kd">func</span> <span class="nf">performAction</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kt">Selector</span><span class="p">,</span> <span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">D</span><span class="p">,</span> <span class="n">_</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">,</span> <span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
@@ -4454,6 +4097,56 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit4ListC12didEndScrollyACyxGXDySayx_So15UITableViewCellCtG_So0gH0CtcF"></a>
+                    <a name="//apple_ref/swift/Method/didEndScroll(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit4ListC12didEndScrollyACyxGXDySayx_So15UITableViewCellCtG_So0gH0CtcF">didEndScroll(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the callback called when a scrolling animation in the scroll view concludes.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">didEndScroll</span><span class="p">(</span><span class="n">_</span> <span class="nv">action</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">([(</span><span class="kt">D</span><span class="p">,</span> <span class="kt">UITableViewCell</span><span class="p">)],</span> <span class="kt">UITableView</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>action</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>self</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -4462,8 +4155,8 @@
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2021 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2021-01-25)</p>
-      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      <p>&copy; 2021 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2021-07-07)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
 </div>

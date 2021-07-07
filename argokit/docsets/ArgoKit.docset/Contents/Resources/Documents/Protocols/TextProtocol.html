@@ -21,7 +21,7 @@
     <header class="header">
       <p class="header-col header-col--primary">
         <a class="header-link" href="../index.html">
-          ArgoKit 1.0.11 Docs
+          ArgoKit 1.3.0 Docs
         </a>
          (71% documented)
       </p>
@@ -148,6 +148,9 @@
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Enums/ArgoWrapType.html">ArgoWrapType</a>
               </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Enums/ViewPosition.html">ViewPosition</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -191,13 +194,13 @@
             <a class="nav-group-name-link" href="../Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a class="nav-group-task-link" href="../Structs/ActivityIndicatorView.html">ActivityIndicatorView</a>
-              </li>
-              <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/ArgoKitAnimationBuilder.html">ArgoKitAnimationBuilder</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/ArgoKitAnimationsBuilder.html">ArgoKitAnimationsBuilder</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Structs/ArgoKitNodeAlias.html">ArgoKitNodeAlias</a>
               </li>
               <li class="nav-group-task">
                 <a class="nav-group-task-link" href="../Structs/BlurEffectView.html">BlurEffectView</a>
@@ -328,36 +331,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit12TextProtocolP8textNodeAA0cfD0_pvp"></a>
-                    <a name="//apple_ref/swift/Property/textNode" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP8textNodeAA0cfD0_pvp">textNode</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">textNode</span><span class="p">:</span> <span class="kt">TextNodeProtocol</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP4font4name5style4sizexSSSgyXA_AA11AKFontStyleOyXA12CoreGraphics7CGFloatVyXAtF"></a>
-                    <a name="//apple_ref/swift/Method/font(name:style:size:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP4font4name5style4sizexSSSgyXA_AA11AKFontStyleOyXA12CoreGraphics7CGFloatVyXAtF">font(name:<wbr>style:<wbr>size:<wbr>)</a>
+                    <a name="/s:7ArgoKit12TextProtocolP4textyxSSSgyXAF"></a>
+                    <a name="//apple_ref/swift/Method/text(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP4textyxSSSgyXAF">text(_:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
                         Default implementation
@@ -373,216 +349,14 @@
                       </div>
                       <h4>Default Implementation</h4>
                       <div class="default_impl abstract">
-                        <p>Set the font of the receiver&rsquo;s text.</p>
-<pre class="highlight swift"><code><span class="c1">// value of AKFontStyle</span>
-<span class="kd">public</span> <span class="kd">enum</span> <span class="kt">AKFontStyle</span><span class="p">{</span>
-    <span class="k">case</span> <span class="p">`</span><span class="nv">default</span><span class="p">`</span>
-    <span class="k">case</span> <span class="n">bold</span>
-    <span class="k">case</span> <span class="n">italic</span>
-    <span class="k">case</span> <span class="n">bolditalic</span>
-<span class="p">}</span>
-</code></pre>
+                        <p>set content of the Text</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">font</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?,</span> <span class="nv">style</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">AKFontStyle</span><span class="p">,</span> <span class="nv">size</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP4font4namexSSSgyXA_tF"></a>
-                    <a name="//apple_ref/swift/Method/font(name:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP4font4namexSSSgyXA_tF">font(name:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>change the font name of the receiver&rsquo;s text</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">font</span><span class="p">(</span><span class="n">name</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP4font4sizex12CoreGraphics7CGFloatVyXA_tF"></a>
-                    <a name="//apple_ref/swift/Method/font(size:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP4font4sizex12CoreGraphics7CGFloatVyXA_tF">font(size:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>change the font size of the receiver&rsquo;s text</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">font</span><span class="p">(</span><span class="n">size</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP4font5stylexAA11AKFontStyleOyXA_tF"></a>
-                    <a name="//apple_ref/swift/Method/font(style:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP4font5stylexAA11AKFontStyleOyXA_tF">font(style:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>change the font style of the receiver&rsquo;s text</p>
-<pre class="highlight swift"><code><span class="c1">// value of AKFontStyle</span>
-<span class="kd">public</span> <span class="kd">enum</span> <span class="kt">AKFontStyle</span><span class="p">{</span>
-    <span class="k">case</span> <span class="p">`</span><span class="nv">default</span><span class="p">`</span>
-    <span class="k">case</span> <span class="n">bold</span>
-    <span class="k">case</span> <span class="n">italic</span>
-    <span class="k">case</span> <span class="n">bolditalic</span>
-<span class="p">}</span>
-</code></pre>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">font</span><span class="p">(</span><span class="n">style</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">AKFontStyle</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP9textColoryxSo7UIColorCyXAF"></a>
-                    <a name="//apple_ref/swift/Method/textColor(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9textColoryxSo7UIColorCyXAF">textColor(_:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>change the color of the text</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP9textAlignyxSo15NSTextAlignmentVyXAF"></a>
-                    <a name="//apple_ref/swift/Method/textAlign(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9textAlignyxSo15NSTextAlignmentVyXAF">textAlign(_:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>set the textAlign of the back UILabel object.</p>
-<pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">NSTextAlignment</span> <span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span>
-    <span class="k">case</span> <span class="n">left</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">// Visually left aligned</span>
-    <span class="k">case</span> <span class="n">center</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">// Visually centered</span>
-    <span class="k">case</span> <span class="n">right</span> <span class="o">=</span> <span class="mi">2</span> <span class="c1">// Visually right aligned</span>
-    <span class="cm">/* !TARGET_ABI_USES_IOS_VALUES */</span>
-    <span class="c1">// Visually right aligned</span>
-    <span class="c1">// Visually centered</span>
-    <span class="k">case</span> <span class="n">justified</span> <span class="o">=</span> <span class="mi">3</span> <span class="c1">// Fully-justified. The last line in a paragraph is natural-aligned.</span>
-    <span class="k">case</span> <span class="n">natural</span> <span class="o">=</span> <span class="mi">4</span> <span class="c1">// Indicates the default alignment for script</span>
-<span class="p">}</span>
-</code></pre>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textAlign</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSTextAlignment</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">text</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -627,6 +401,361 @@
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:7ArgoKit12TextProtocolP4font4name5style4size5rangexSSSgyXA_AA11AKFontStyleOyXA12CoreGraphics7CGFloatVyXASo8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/font(name:style:size:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP4font4name5style4size5rangexSSSgyXA_AA11AKFontStyleOyXA12CoreGraphics7CGFloatVyXASo8_NSRangeVSgyXAtF">font(name:<wbr>style:<wbr>size:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Set the font of the receiver&rsquo;s text.</p>
+<pre class="highlight swift"><code><span class="c1">// value of AKFontStyle</span>
+<span class="kd">public</span> <span class="kd">enum</span> <span class="kt">AKFontStyle</span><span class="p">{</span>
+    <span class="k">case</span> <span class="p">`</span><span class="nv">default</span><span class="p">`</span>
+    <span class="k">case</span> <span class="n">bold</span>
+    <span class="k">case</span> <span class="n">italic</span>
+    <span class="k">case</span> <span class="n">bolditalic</span>
+<span class="p">}</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">font</span><span class="p">(</span><span class="nv">name</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?,</span>
+          <span class="nv">style</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">AKFontStyle</span><span class="p">,</span>
+          <span class="nv">size</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+          <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP4font4name5rangexSSSgyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/font(name:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP4font4name5rangexSSSgyXA_So8_NSRangeVSgyXAtF">font(name:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>change the font name of the receiver&rsquo;s text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">font</span><span class="p">(</span><span class="n">name</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?,</span>
+          <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP4font4size5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/font(size:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP4font4size5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF">font(size:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>change the font size of the receiver&rsquo;s text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">font</span><span class="p">(</span><span class="n">size</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+          <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP4font5style5rangexAA11AKFontStyleOyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/font(style:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP4font5style5rangexAA11AKFontStyleOyXA_So8_NSRangeVSgyXAtF">font(style:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>change the font style of the receiver&rsquo;s text</p>
+<pre class="highlight swift"><code><span class="c1">// value of AKFontStyle</span>
+<span class="kd">public</span> <span class="kd">enum</span> <span class="kt">AKFontStyle</span><span class="p">{</span>
+    <span class="k">case</span> <span class="p">`</span><span class="nv">default</span><span class="p">`</span>
+    <span class="k">case</span> <span class="n">bold</span>
+    <span class="k">case</span> <span class="n">italic</span>
+    <span class="k">case</span> <span class="n">bolditalic</span>
+<span class="p">}</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">font</span><span class="p">(</span><span class="n">style</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">AKFontStyle</span><span class="p">,</span>
+          <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP9textColor_5rangexSo7UIColorCyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/textColor(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9textColor_5rangexSo7UIColorCyXA_So8_NSRangeVSgyXAtF">textColor(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>change the color of the text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span><span class="p">,</span>
+               <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP9textColor3red5green4blue5alpha5rangexSiyXA_SiyXASiyXA12CoreGraphics7CGFloatVyXASo8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/textColor(red:green:blue:alpha:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9textColor3red5green4blue5alpha5rangexSiyXA_SiyXASiyXA12CoreGraphics7CGFloatVyXASo8_NSRangeVSgyXAtF">textColor(red:<wbr>green:<wbr>blue:<wbr>alpha:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>change the rgba-color of the text.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textColor</span><span class="p">(</span><span class="n">red</span> <span class="nv">r</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span>
+               <span class="n">green</span> <span class="nv">g</span> <span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span>
+               <span class="n">blue</span> <span class="nv">b</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span>
+               <span class="n">alpha</span> <span class="nv">a</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+               <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP9textColor3hex5alpha5rangexSiyXA_SfyXASo8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/textColor(hex:alpha:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9textColor3hex5alpha5rangexSiyXA_SfyXASo8_NSRangeVSgyXAtF">textColor(hex:<wbr>alpha:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>change the rgba-color of the text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textColor</span><span class="p">(</span><span class="nv">hex</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span>
+               <span class="n">alpha</span> <span class="nv">a</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Float</span><span class="p">,</span>
+               <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP9lineLimityxSiyXAF"></a>
+                    <a name="//apple_ref/swift/Method/lineLimit(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9lineLimityxSiyXAF">lineLimit(_:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>Set the maximum number of lines for rendering text. 0 representing unlimited.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">lineLimit</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP9textAlign_5rangexSo15NSTextAlignmentVyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/textAlign(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9textAlign_5rangexSo15NSTextAlignmentVyXA_So8_NSRangeVSgyXAtF">textAlign(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>set the textAlign of the back UILabel object.</p>
+<pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">NSTextAlignment</span> <span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="n">left</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">// Visually left aligned</span>
+    <span class="k">case</span> <span class="n">center</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">// Visually centered</span>
+    <span class="k">case</span> <span class="n">right</span> <span class="o">=</span> <span class="mi">2</span> <span class="c1">// Visually right aligned</span>
+    <span class="cm">/* !TARGET_ABI_USES_IOS_VALUES */</span>
+    <span class="c1">// Visually right aligned</span>
+    <span class="c1">// Visually centered</span>
+    <span class="k">case</span> <span class="n">justified</span> <span class="o">=</span> <span class="mi">3</span> <span class="c1">// Fully-justified. The last line in a paragraph is natural-aligned.</span>
+    <span class="k">case</span> <span class="n">natural</span> <span class="o">=</span> <span class="mi">4</span> <span class="c1">// Indicates the default alignment for script</span>
+<span class="p">}</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textAlign</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSTextAlignment</span><span class="p">,</span> <span class="nv">range</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/s:7ArgoKit12TextProtocolP11lineSpacingyx12CoreGraphics7CGFloatVyXAF"></a>
                     <a name="//apple_ref/swift/Method/lineSpacing(_:)" class="dashAnchor"></a>
                     <a class="token" href="#/s:7ArgoKit12TextProtocolP11lineSpacingyx12CoreGraphics7CGFloatVyXAF">lineSpacing(_:<wbr>)</a>
@@ -662,219 +791,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit12TextProtocolP9textColor3red5green4blue5alphaxSiyXA_SiyXASiyXA12CoreGraphics7CGFloatVyXAtF"></a>
-                    <a name="//apple_ref/swift/Method/textColor(red:green:blue:alpha:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9textColor3red5green4blue5alphaxSiyXA_SiyXASiyXA12CoreGraphics7CGFloatVyXAtF">textColor(red:<wbr>green:<wbr>blue:<wbr>alpha:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>change the rgba-color of the text.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textColor</span><span class="p">(</span><span class="n">red</span> <span class="nv">r</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">green</span> <span class="nv">g</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">blue</span> <span class="nv">b</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">alpha</span> <span class="nv">a</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP9textColor3hex5alphaxSiyXA_SfyXAtF"></a>
-                    <a name="//apple_ref/swift/Method/textColor(hex:alpha:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9textColor3hex5alphaxSiyXA_SfyXAtF">textColor(hex:<wbr>alpha:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>change the rgba-color of the text</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textColor</span><span class="p">(</span><span class="nv">hex</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">alpha</span> <span class="nv">a</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP16textShadowOffsetyxSo6CGSizeVyXAF"></a>
-                    <a name="//apple_ref/swift/Method/textShadowOffset(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP16textShadowOffsetyxSo6CGSizeVyXAF">textShadowOffset(_:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>set the shadow offset, in points, for the text</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textShadowOffset</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP15textShadowColoryxSo7UIColorCyXAF"></a>
-                    <a name="//apple_ref/swift/Method/textShadowColor(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP15textShadowColoryxSo7UIColorCyXAF">textShadowColor(_:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>set the shadow color for the text</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textShadowColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP15textShadowColor3red5green4blue5alphaxSiyXA_SiyXASiyXA12CoreGraphics7CGFloatVyXAtF"></a>
-                    <a name="//apple_ref/swift/Method/textShadowColor(red:green:blue:alpha:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP15textShadowColor3red5green4blue5alphaxSiyXA_SiyXASiyXA12CoreGraphics7CGFloatVyXAtF">textShadowColor(red:<wbr>green:<wbr>blue:<wbr>alpha:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>set the shadow color for the text, the color is generated by the rgba value.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textShadowColor</span><span class="p">(</span><span class="n">red</span> <span class="nv">r</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">green</span> <span class="nv">g</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">blue</span> <span class="nv">b</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">alpha</span> <span class="nv">a</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP15textShadowColor3hex5alphaxSiyXA_SfyXAtF"></a>
-                    <a name="//apple_ref/swift/Method/textShadowColor(hex:alpha:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP15textShadowColor3hex5alphaxSiyXA_SfyXAtF">textShadowColor(hex:<wbr>alpha:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>set the shadow color for the text, the color is generated by the rgba value.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textShadowColor</span><span class="p">(</span><span class="nv">hex</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">alpha</span> <span class="nv">a</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP9breakModeyxSo011NSLineBreakF0VyXAF"></a>
-                    <a name="//apple_ref/swift/Method/breakMode(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9breakModeyxSo011NSLineBreakF0VyXAF">breakMode(_:<wbr>)</a>
+                    <a name="/s:7ArgoKit12TextProtocolP9breakMode_5rangexSo011NSLineBreakF0VyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/breakMode(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9breakMode_5rangexSo011NSLineBreakF0VyXA_So8_NSRangeVSgyXAtF">breakMode(_:<wbr>range:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
                         Default implementation
@@ -912,7 +831,265 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">breakMode</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSLineBreakMode</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">breakMode</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSLineBreakMode</span><span class="p">,</span> <span class="nv">range</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP10textShadow_5rangexSo8NSShadowCyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/textShadow(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP10textShadow_5rangexSo8NSShadowCyXA_So8_NSRangeVSgyXAtF">textShadow(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>set the shadow, in points, for the text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textShadow</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSShadow</span><span class="p">,</span>
+                <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP10textShadow5color6offset10blurRadius5rangexSo7UIColorCyXA_So6CGSizeVyXA12CoreGraphics7CGFloatVyXASo8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/textShadow(color:offset:blurRadius:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP10textShadow5color6offset10blurRadius5rangexSo7UIColorCyXA_So6CGSizeVyXA12CoreGraphics7CGFloatVyXASo8_NSRangeVSgyXAtF">textShadow(color:<wbr>offset:<wbr>blurRadius:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>set the shadow, in points, for the text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textShadow</span><span class="p">(</span><span class="nv">color</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span><span class="kt">UIColor</span><span class="p">,</span>
+                <span class="nv">offset</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span><span class="kt">CGSize</span><span class="p">,</span>
+                <span class="nv">blurRadius</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span><span class="kt">CGFloat</span><span class="p">,</span>
+                <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span><span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP16textShadowOffset_5rangexSo6CGSizeVyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/textShadowOffset(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP16textShadowOffset_5rangexSo6CGSizeVyXA_So8_NSRangeVSgyXAtF">textShadowOffset(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>set the shadow offset, in points, for the text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textShadowOffset</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGSize</span><span class="p">,</span>
+                      <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP15textShadowColor_5rangexSo7UIColorCyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/textShadowColor(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP15textShadowColor_5rangexSo7UIColorCyXA_So8_NSRangeVSgyXAtF">textShadowColor(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>set the shadow color for the text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textShadowColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIColor</span><span class="p">,</span>
+                     <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP15textShadowColor3red5green4blue5alpha5rangexSiyXA_SiyXASiyXA12CoreGraphics7CGFloatVyXASo8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/textShadowColor(red:green:blue:alpha:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP15textShadowColor3red5green4blue5alpha5rangexSiyXA_SiyXASiyXA12CoreGraphics7CGFloatVyXASo8_NSRangeVSgyXAtF">textShadowColor(red:<wbr>green:<wbr>blue:<wbr>alpha:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>set the shadow color for the text, the color is generated by the rgba value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textShadowColor</span><span class="p">(</span><span class="n">red</span> <span class="nv">r</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span>
+                     <span class="n">green</span> <span class="nv">g</span> <span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span>
+                     <span class="n">blue</span> <span class="nv">b</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span>
+                     <span class="n">alpha</span> <span class="nv">a</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+                     <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP15textShadowColor3hex5alpha5rangexSiyXA_SfyXASo8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/textShadowColor(hex:alpha:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP15textShadowColor3hex5alpha5rangexSiyXA_SfyXASo8_NSRangeVSgyXAtF">textShadowColor(hex:<wbr>alpha:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>set the shadow color for the text, the color is generated by the rgba value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textShadowColor</span><span class="p">(</span><span class="nv">hex</span> <span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">,</span>
+                     <span class="n">alpha</span> <span class="nv">a</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Float</span><span class="p">,</span>
+                     <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP20textShadowBlurRadius_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/textShadowBlurRadius(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP20textShadowBlurRadius_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF">textShadowBlurRadius(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>set the shadow offset, in points, for the text</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">textShadowBlurRadius</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+                          <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span><span class="o">-&gt;</span><span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -1053,41 +1230,6 @@
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isEnabled</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:7ArgoKit12TextProtocolP9lineLimityxSiyXAF"></a>
-                    <a name="//apple_ref/swift/Method/lineLimit(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolP9lineLimityxSiyXAF">lineLimit(_:<wbr>)</a>
-                    </code>
-                      <span class="declaration-note">
-                        Default implementation
-                      </span>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <h4>Default Implementation</h4>
-                      <div class="default_impl abstract">
-                        <p>Set the maximum number of lines for rendering text. 0 representing unlimited.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">lineLimit</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -1322,12 +1464,12 @@ The default value of this property is false.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit12TextProtocolPAAE4textyxSSSgyXAF"></a>
-                    <a name="//apple_ref/swift/Method/text(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolPAAE4textyxSSSgyXAF">text(_:<wbr>)</a>
+                    <a name="/s:7ArgoKit12TextProtocolP4kern_5rangexSfyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/kern(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP4kern_5rangexSfyXA_So8_NSRangeVSgyXAtF">kern(_:<wbr>range:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
-                        Extension method
+                        Default implementation
                       </span>
                   </div>
                   <div class="height-container">
@@ -1335,40 +1477,30 @@ The default value of this property is false.</p>
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>set content of the Text</p>
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>A kerning adjustment.
+@discussion Default is standard kerning. The kerning attribute indicate how many
+points the following character should be shifted from its default offset as
+defined by the current character&rsquo;s font in points; a positive kern indicates a
+shift farther along and a negative kern indicates a shift closer to the current
+character. If this attribute is not present, standard kerning will be used.
+If this attribute is set to 0.0, no kerning will be done at all.
+@discussion Set this property applies to the entire text string.
+Get this property returns the first character&rsquo;s attribute.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">text</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">kern</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Float</span><span class="p">,</span>
+                 <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
-                      </div>
-                      <div>
-                        <h4>Parameters</h4>
-                        <table class="graybox">
-                          <tbody>
-                            <tr>
-                              <td>
-                                <code>
-                                <em>value</em>
-                                </code>
-                              </td>
-                              <td>
-                                <div>
-                                  <p>a string value</p>
-                                </div>
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                      <div>
-                        <h4>Return Value</h4>
-                        <p>self</p>
                       </div>
                     </section>
                   </div>
@@ -1376,9 +1508,303 @@ The default value of this property is false.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:7ArgoKit12TextProtocolPAAE4fontyxSo6UIFontCyXAF"></a>
-                    <a name="//apple_ref/swift/Method/font(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:7ArgoKit12TextProtocolPAAE4fontyxSo6UIFontCyXAF">font(_:<wbr>)</a>
+                    <a name="/s:7ArgoKit12TextProtocolP16paragraphSpacing_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/paragraphSpacing(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP16paragraphSpacing_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF">paragraphSpacing(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>The space after the end of the paragraph (A wrapper for NSParagraphStyle).</p>
+
+<ul>
+<li>end of the paragraph to separate it from the following paragraph. This value must</li>
+<li>be nonnegative. The space between paragraphs is determined by adding the previous</li>
+<li>paragraph&rsquo;s paragraphSpacing and the current paragraph&rsquo;s paragraphSpacingBefore.</li>
+<li>Default is 0.</li>
+<li>Set this property applies to the entire text string.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">paragraphSpacing</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+                             <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP22paragraphSpacingBefore_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/paragraphSpacingBefore(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP22paragraphSpacingBefore_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF">paragraphSpacingBefore(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>The distance between the paragraph&rsquo;s top and the beginning of its text content.
+(A wrapper for NSParagraphStyle). (read-only)</p>
+
+<ul>
+<li>Default is 0.</li>
+<li>Get this property returns the first character&rsquo;s attribute.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">paragraphSpacingBefore</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span><span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+                                   <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP19firstLineHeadIndent_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/firstLineHeadIndent(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP19firstLineHeadIndent_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF">firstLineHeadIndent(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>The indentation of the first line (A wrapper for NSParagraphStyle). (read-only)</p>
+
+<ul>
+<li>Default is 0.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">firstLineHeadIndent</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+                         <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP10headIndent_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/headIndent(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP10headIndent_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF">headIndent(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>The indentation of the receiver&rsquo;s lines other than the first. (A wrapper for NSParagraphStyle). (read-only)</p>
+
+<ul>
+<li>of a text container to the beginning of lines other than the first. This value is</li>
+<li>always nonnegative.</li>
+<li>Default is 0.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">headIndent</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+                       <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP10tailIndent_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/tailIndent(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP10tailIndent_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF">tailIndent(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>The trailing indentation (A wrapper for NSParagraphStyle). (read-only)</p>
+
+<ul>
+<li>Default is 0.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">tailIndent</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+                       <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP17minimumLineHeight_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/minimumLineHeight(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP17minimumLineHeight_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF">minimumLineHeight(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>The receiver&rsquo;s minimum height (A wrapper for NSParagraphStyle). (read-only)</p>
+
+<ul>
+<li>the receiver will occupy, regardless of the font size or size of any attached graphic.</li>
+<li>This value must be nonnegative.</li>
+<li>Default is 0.</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">minimumLineHeight</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+                              <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolP17maximumLineHeight_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/maximumLineHeight(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolP17maximumLineHeight_5rangex12CoreGraphics7CGFloatVyXA_So8_NSRangeVSgyXAtF">maximumLineHeight(_:<wbr>range:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Default implementation
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <h4>Default Implementation</h4>
+                      <div class="default_impl abstract">
+                        <p>The receiver&rsquo;s maximum line height (A wrapper for NSParagraphStyle). (read-only)</p>
+
+<ul>
+<li>the receiver will occupy, regardless of the font size or size of any attached graphic.</li>
+<li>This value is always nonnegative. Glyphs and graphics exceeding this height will</li>
+<li>overlap neighboring lines; however, a maximum height of 0 implies no line height limit.</li>
+<li>Although this limit applies to the line itself, line spacing adds extra space between adjacent lines.</li>
+<li>Default is 0 (no limit).</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">maximumLineHeight</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">CGFloat</span><span class="p">,</span>
+                              <span class="nv">range</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7ArgoKit12TextProtocolPAAE4font_5rangexSo6UIFontCyXA_So8_NSRangeVSgyXAtF"></a>
+                    <a name="//apple_ref/swift/Method/font(_:range:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7ArgoKit12TextProtocolPAAE4font_5rangexSo6UIFontCyXA_So8_NSRangeVSgyXAtF">font(_:<wbr>range:<wbr>)</a>
                     </code>
                       <span class="declaration-note">
                         Extension method
@@ -1397,7 +1823,7 @@ The default value of this property is false.</p>
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
-<span class="kd">public</span> <span class="kd">func</span> <span class="nf">font</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIFont</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
+<span class="kd">public</span> <span class="kd">func</span> <span class="nf">font</span><span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">UIFont</span><span class="p">,</span> <span class="nv">range</span><span class="p">:</span> <span class="kd">@autoclosure</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSRange</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="k">Self</span></code></pre>
 
                         </div>
                       </div>
@@ -1435,8 +1861,8 @@ The default value of this property is false.</p>
       </article>
     </div>
     <section class="footer">
-      <p>&copy; 2021 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2021-01-25)</p>
-      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+      <p>&copy; 2021 <a class="link" href="https://git.wemomo.com/module/argokit" target="_blank" rel="external">MoMo</a>. All rights reserved. (Last updated: 2021-07-07)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
     </section>
   </body>
 </div>
